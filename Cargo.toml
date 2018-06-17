@@ -7,3 +7,8 @@ repository = "https://github.com/LightDiscord/GitHub-on-Discord"
 license = "MIT"
 
 [dependencies]
+error-chain = "0.11.0"
+
+[dependencies.serenity]
+version = "0.5"
+
