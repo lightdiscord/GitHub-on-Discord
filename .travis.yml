@@ -1,0 +1,19 @@
+language: rust
+sudo: false
+
+rust:
+    - stable
+    - beta
+    - nightly
+
+cache: cargo
+
+script:
+    - cargo test --verbose --all
+    - cargo build --verbose --all
+    - cargo test --verbose --all --release
+    - cargo build --verbose --all --release
+
+notifications:
+    email:
+        on_success: never

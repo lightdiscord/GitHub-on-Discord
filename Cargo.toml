@@ -1,0 +1,9 @@
+[package]
+name = "github-on-discord"
+description = "A Discord bot which rely data from GitHub"
+version = "0.1.0"
+authors = ["LightDiscord <arnaud@lightdiscord.me>"]
+repository = "https://github.com/LightDiscord/GitHub-on-Discord"
+license = "MIT"
+
+[dependencies]
